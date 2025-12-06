@@ -244,13 +244,14 @@
     // ============================================================
     // 🔴🔴 البيانات المطلوبة 🔴🔴
     // ============================================================
-    const SHEET_CSV_URL = "ضع_رابط_CSV_هنا"; 
-    const GOOGLE_FORM_URL = "ضع_رابط_الفورم_هنا";
-    const LOGO_URL = "ضع_رابط_الشعار_هنا"; 
-    const DESIGNER_NAME = "اسم المصمم هنا";
-    const BARCODE_ENTRY_ID = "ضع_رقم_الباركود_هنا"; 
-    const NAME_ENTRY_ID = ""; 
-    const PRICE1_ENTRY_ID = ""; 
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKotb6frhhZzBOkKyvUu0V1x06UkENSEkdtSn52yfc7OG030tDMxwjjjEX8tV1UGgpNzMTuObGRur3/pub?gid=0&single=true&output=csv"; 
+    const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfT5WLBAE4dTq-uprfqbVnX1K8HWrOs8AlyGH60IdEkBee2Kg/viewform?usp=header";
+    const LOGO_URL = "https://kamalsaad.com/themes/theme_front/assets/images/KMS LOGO FINAL.png"; 
+    const DESIGNER_NAME = "عبدالرحمن إبراهيم";
+    
+    const BARCODE_ENTRY_ID = "1811127320"; 
+    const NAME_ENTRY_ID = "198039627"; 
+    const PRICE1_ENTRY_ID = "1964075675"; 
     // ============================================================
 
     if(LOGO_URL && LOGO_URL !== "") { document.getElementById('company-logo').src = LOGO_URL; } 
